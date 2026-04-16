@@ -75,54 +75,58 @@ pip install -r requirements.txt
 
 ## How to Run
 
-Start MCP Server
+1. Start MCP Server
 
-python main.py
+2. python main.py
 
-Run Hybrid AI Agent
+3. Run Hybrid AI Agent
 
-python hybrid_agent.py
+4. python hybrid_agent.py
 
 ## Example Queries
 
 ## RAG Queries
 
-What is the leave policy?
-How many sick leaves are allowed?
-Can I carry forward earned leave?
+1. What is the leave policy?
+2. How many sick leaves are allowed?
+3. Can I carry forward earned leave?
 
 ## MCP Actions
 
-Apply leave for 2 days
-Book sick leave
-Request vacation leave
+1. Apply leave for 2 days
+2. Book sick leave
+3. Request vacation leave
 
 ## Hybrid Queries
 
-Can I take leave tomorrow?
-Should I apply leave if I am sick?
-What happens if I exceed leave limit?
+1. Can I take leave tomorrow?
+2. Should I apply leave if I am sick?
+3. What happens if I exceed leave limit?
 
 ## Tech Stack
 
-. Python
-FAISS (Vector Database)
-LangChain
-HuggingFace Transformers
-Sentence Transformers
-MCP (Model Context Protocol)
-FastAPI / Uvicorn
+1. Python
+2. FAISS (Vector Database)
+3. LangChain
+4. HuggingFace Transformers
+5. Sentence Transformers
+6. MCP (Model Context Protocol)
+7. FastAPI / Uvicorn
 
-Future Improvements
-Replace rule-based routing with LLM-based decision system
-Add FastAPI backend for API access
-Build frontend UI (Streamlit or React)
-Connect real HR database (SQL integration)
-Deploy on cloud (AWS / Render / Railway)
-Author
-
+## Future Improvements
+1. Replace rule-based routing with LLM-based decision system
+2. Add FastAPI backend for API access
+3. Build frontend UI (Streamlit or React)
+4. Connect real HR database (SQL integration)
+5. Deploy on cloud (AWS / Render / Railway)
+   
+## Author
 Kshiti Tyagi
 
-Project Goal
+## Project Goal
 
 To demonstrate a real-world AI HR assistant that integrates knowledge retrieval (RAG), tool execution (MCP), and intelligent routing in a single system.
+
+
+
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/fb999ac4-7c4f-4b03-bc36-d1bf64018d60" />
