@@ -53,8 +53,7 @@ README.md
 Installation
 1. Clone repository
 
-git clone https://github.com/your-username/hr-ai-hybrid-assistant.git
-
+git clone https://github.com/robo99oo/hr-ai-hybrid-assistant.git
 cd hr-ai-hybrid-assistant
 
 2. Create virtual environment
