@@ -1,10 +1,13 @@
 
-<img width="1243" height="956" alt="image" src="https://github.com/user-attachments/assets/fb999ac4-7c4f-4b03-bc36-d1bf64018d60" />
-
+<img width="956" height="956" alt="image" src="https://github.com/user-attachments/assets/fb999ac4-7c4f-4b03-bc36-d1bf64018d60" />
 
 ## HR AI Hybrid Assistant (RAG + MCP + AI Agent)
 
 An AI-powered HR assistant system that combines Retrieval-Augmented Generation (RAG), Model Context Protocol (MCP) tools, and a hybrid routing engine to handle HR policy queries and automate HR actions like leave management.
+
+## Project Goal
+
+To demonstrate a real-world AI HR assistant that integrates knowledge retrieval (RAG), tool execution (MCP), and intelligent routing in a single system.
 
 ## Features
 1. RAG-based HR Knowledge System
@@ -126,9 +129,6 @@ pip install -r requirements.txt
 ## Author
 Kshiti Tyagi
 
-## Project Goal
-
-To demonstrate a real-world AI HR assistant that integrates knowledge retrieval (RAG), tool execution (MCP), and intelligent routing in a single system.
 
 
 
