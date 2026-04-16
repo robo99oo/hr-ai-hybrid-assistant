@@ -129,4 +129,4 @@ To demonstrate a real-world AI HR assistant that integrates knowledge retrieval 
 
 
 
-<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/fb999ac4-7c4f-4b03-bc36-d1bf64018d60" />
+<img width="1456" height="1024" alt="image" src="https://github.com/user-attachments/assets/fb999ac4-7c4f-4b03-bc36-d1bf64018d60" />
