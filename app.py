@@ -53,15 +53,30 @@ input_border = "#30363d" if dark else "#d1d5db"
 st.markdown(f"""
 <style>
 .stApp {{ background: {bg}; }}
-section[data-testid="stSidebar"] {{ background: {sidebar_bg}; }}
-section[data-testid="stSidebar"] * {{ color: {text_main} !important; }}
-#MainMenu, footer, header {{ visibility: hidden; }}
-.block-container {{ padding: 0 !important; max-width: 100% !important; }}
+
+section[data-testid="stSidebar"] {{
+    background: {sidebar_bg};
+}}
+
+section[data-testid="stSidebar"] * {{
+    color: {text_main} !important;
+}}
+
+#MainMenu, footer {{
+    visibility: hidden;
+}}
+
+.block-container {{
+    padding-top: 1rem !important;
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+    max-width: 100% !important;
+}}
 
 .chat-container {{
     max-width: 900px;
     margin: 0 auto;
-    padding: 2rem 1rem 6rem 1rem;
+    padding: 1rem 1rem 6rem 1rem;
 }}
 
 .hero-card {{
@@ -69,7 +84,7 @@ section[data-testid="stSidebar"] * {{ color: {text_main} !important; }}
     border: 1px solid {bot_border};
     border-radius: 18px;
     padding: 30px;
-    margin: 22px auto 24px;
+    margin: 20px auto 24px;
     color: {text_main};
     text-align: center;
 }}
@@ -372,7 +387,7 @@ if not st.session_state.messages:
                 rtype = result.get("type", "UNKNOWN")
 
                 if rtype == "HYBRID":
-                    reply = f"**Policy Info:**\n\n{result.get('rag', '')}\n\n💡 {result.get('action_suggestion', '')}"
+                    reply = f"Policy Info:\n\n{result.get('rag', '')}\n\n💡 {result.get('action_suggestion', '')}"
                 else:
                     reply = result.get(
                         "response",
@@ -427,7 +442,6 @@ if query := st.chat_input("Ask about HR policy, onboarding, compliance, or apply
 
     if rtype == "HYBRID":
         reply = f"Policy Info:\n\n{result.get('rag', '')}\n\n💡 {result.get('action_suggestion', '')}"
-
     else:
         reply = result.get(
             "response",
