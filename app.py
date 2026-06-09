@@ -6,7 +6,8 @@ from hybrid_agent import hybrid_agent
 st.set_page_config(
     page_title="Agentic HR Operating System",
     page_icon="🤖",
-    layout="wide"
+    layout="wide",
+    initial_sidebar_state="expanded"
 )
 
 if "dark_mode" not in st.session_state:
