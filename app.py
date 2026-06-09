@@ -83,7 +83,7 @@ section[data-testid="stSidebar"] * {{
     background: linear-gradient(135deg, rgba(47,129,247,0.16), rgba(167,139,250,0.12));
     border: 1px solid {bot_border};
     border-radius: 18px;
-    padding: 30px;
+    padding: 20px;
     margin: 20px auto 24px;
     color: {text_main};
     text-align: center;
